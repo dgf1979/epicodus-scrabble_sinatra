@@ -1,0 +1,14 @@
+body {
+  color: black;
+  background-image: url(http://www.bolsboardgames.com/scrabble.jpg);
+
+}
+
+.color_background{
+  background-color:rgba(148, 148, 184, .85);
+  padding-bottom: 20px;
+}
+
+.center_text {
+  text-align: center;
+}

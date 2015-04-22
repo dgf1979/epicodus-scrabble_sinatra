@@ -15,4 +15,10 @@ describe('scrabble', {:type => :feature}) do
     click_button('Send')
     expect(page).to have_content('55')
   end
+  it('returns a scrabble score for a wordwith a capital letter.') do
+    visit('/')
+    fill_in('scrabble_box', :with => 'Aaaaazzzzz')
+    click_button('Send')
+    expect(page).to have_content('55')
+  end
 end
